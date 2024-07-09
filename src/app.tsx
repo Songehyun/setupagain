@@ -8,7 +8,7 @@ const App: React.FC = () => {
   return (
     <div>
       <Minam />
-      return <h1>안녕</h1>;
+      <h1>안녕</h1>
     </div>
   );
 };
