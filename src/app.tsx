@@ -1,13 +1,6 @@
 import React from "react";
 import minam from "../static/basic-data";
-
-interface textNode {
-  textNode: string;
-}
-
-const Minam: React.FC<textNode> = ({ textNode }) => {
-  return <h1>{textNode}</h1>;
-};
+import Minam from "./Minam";
 
 const App: React.FC = () => {
   return (
