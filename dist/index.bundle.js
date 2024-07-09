@@ -26,7 +26,7 @@ eval("\n\nObject.defineProperty(exports, \"__esModule\", ({\n  value: true\n}));
   \*********************/
 /***/ (function(__unused_webpack_module, exports, __webpack_require__) {
 
-eval("\n\nvar __importDefault = this && this.__importDefault || function (mod) {\n  return mod && mod.__esModule ? mod : {\n    \"default\": mod\n  };\n};\nObject.defineProperty(exports, \"__esModule\", ({\n  value: true\n}));\nvar jsx_runtime_1 = __webpack_require__(/*! react/jsx-runtime */ \"./node_modules/react/jsx-runtime.js\");\nvar basic_data_1 = __importDefault(__webpack_require__(/*! ../static/basic-data */ \"./static/basic-data.tsx\"));\nvar li_intext_1 = __importDefault(__webpack_require__(/*! ../static/li-intext */ \"./static/li-intext.tsx\"));\nvar Minam_1 = __importDefault(__webpack_require__(/*! ./Minam */ \"./src/Minam.tsx\"));\nvar ulli_1 = __importDefault(__webpack_require__(/*! ./ulli */ \"./src/ulli.tsx\"));\nvar App = function App() {\n  return (0, jsx_runtime_1.jsxs)(\"div\", {\n    children: [(0, jsx_runtime_1.jsx)(Minam_1[\"default\"], {\n      textNode: basic_data_1[\"default\"]\n    }), (0, jsx_runtime_1.jsx)(\"h1\", {\n      children: \"\\uC548\\uB155?\"\n    }), (0, jsx_runtime_1.jsx)(\"div\", {\n      children: (0, jsx_runtime_1.jsx)(ulli_1[\"default\"], {\n        liintext: li_intext_1[\"default\"]\n      })\n    })]\n  });\n};\nexports[\"default\"] = App;\n\n//# sourceURL=webpack://setupagain/./src/app.tsx?");
+eval("\n\nvar __importDefault = this && this.__importDefault || function (mod) {\n  return mod && mod.__esModule ? mod : {\n    \"default\": mod\n  };\n};\nObject.defineProperty(exports, \"__esModule\", ({\n  value: true\n}));\nvar jsx_runtime_1 = __webpack_require__(/*! react/jsx-runtime */ \"./node_modules/react/jsx-runtime.js\");\nvar basic_data_1 = __importDefault(__webpack_require__(/*! ../static/basic-data */ \"./static/basic-data.tsx\"));\nvar hoyeong_1 = __importDefault(__webpack_require__(/*! ../static/hoyeong */ \"./static/hoyeong.tsx\"));\nvar Minam_1 = __importDefault(__webpack_require__(/*! ./Minam */ \"./src/Minam.tsx\"));\nvar ulli_1 = __importDefault(__webpack_require__(/*! ./ulli */ \"./src/ulli.tsx\"));\nvar App = function App() {\n  return (0, jsx_runtime_1.jsxs)(\"div\", {\n    children: [(0, jsx_runtime_1.jsx)(ulli_1[\"default\"], {\n      listItem: hoyeong_1[\"default\"]\n    }), (0, jsx_runtime_1.jsx)(Minam_1[\"default\"], {\n      textNode: basic_data_1[\"default\"]\n    }), (0, jsx_runtime_1.jsx)(\"h1\", {\n      children: \"\\uC548\\uB155?\"\n    })]\n  });\n};\nexports[\"default\"] = App;\n\n//# sourceURL=webpack://setupagain/./src/app.tsx?");
 
 /***/ }),
 
@@ -46,7 +46,7 @@ eval("\n\nvar __importDefault = this && this.__importDefault || function (mod) {
   \**********************/
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
-eval("\n\nObject.defineProperty(exports, \"__esModule\", ({\n  value: true\n}));\nvar jsx_runtime_1 = __webpack_require__(/*! react/jsx-runtime */ \"./node_modules/react/jsx-runtime.js\");\nvar Inlist = function Inlist(_ref) {\n  var liintext = _ref.liintext;\n  return (0, jsx_runtime_1.jsx)(\"ul\", {\n    children: (0, jsx_runtime_1.jsx)(\"li\", {\n      children: liintext\n    })\n  });\n};\nexports[\"default\"] = Inlist;\n\n//# sourceURL=webpack://setupagain/./src/ulli.tsx?");
+eval("\n\nObject.defineProperty(exports, \"__esModule\", ({\n  value: true\n}));\nvar jsx_runtime_1 = __webpack_require__(/*! react/jsx-runtime */ \"./node_modules/react/jsx-runtime.js\");\nvar UlLi = function UlLi(_ref) {\n  var listItem = _ref.listItem;\n  return (0, jsx_runtime_1.jsxs)(\"ul\", {\n    children: [(0, jsx_runtime_1.jsx)(\"li\", {\n      children: listItem[0]\n    }), (0, jsx_runtime_1.jsx)(\"li\", {\n      children: listItem[1]\n    }), (0, jsx_runtime_1.jsx)(\"li\", {\n      children: listItem[2]\n    })]\n  });\n};\nexports[\"default\"] = UlLi;\n\n//# sourceURL=webpack://setupagain/./src/ulli.tsx?");
 
 /***/ }),
 
@@ -60,13 +60,13 @@ eval("\n\nObject.defineProperty(exports, \"__esModule\", ({\n  value: true\n}));
 
 /***/ }),
 
-/***/ "./static/li-intext.tsx":
-/*!******************************!*\
-  !*** ./static/li-intext.tsx ***!
-  \******************************/
+/***/ "./static/hoyeong.tsx":
+/*!****************************!*\
+  !*** ./static/hoyeong.tsx ***!
+  \****************************/
 /***/ ((__unused_webpack_module, exports) => {
 
-eval("\n\nObject.defineProperty(exports, \"__esModule\", ({\n  value: true\n}));\nvar litext = \"리스트1\";\nexports[\"default\"] = litext;\n\n//# sourceURL=webpack://setupagain/./static/li-intext.tsx?");
+eval("\n\nObject.defineProperty(exports, \"__esModule\", ({\n  value: true\n}));\nvar hoyeong = [\"호영인\", \"언제쯤\", \"이길까\"];\nexports[\"default\"] = hoyeong;\n\n//# sourceURL=webpack://setupagain/./static/hoyeong.tsx?");
 
 /***/ }),
 
