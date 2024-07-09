@@ -1,13 +1,15 @@
-interface liintext {
-  liintext: string;
+interface listItem {
+  listItem: string[];
 }
 
-const Inlist: React.FC<liintext> = ({ liintext }) => {
+const UlLi: React.FC<listItem> = ({ listItem }) => {
   return (
     <ul>
-      <li>{liintext}</li>
+      <li>{listItem[0]}</li>
+      <li>{listItem[1]}</li>
+      <li>{listItem[2]}</li>
     </ul>
   );
 };
 
-export default Inlist;
+export default UlLi;
